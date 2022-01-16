@@ -1,1 +1,9 @@
+body{
+ background-color:black;
+ }
 
+div.clock{
+  font-family:fantasy;
+  color:white;
+  text-align: center;
+}
