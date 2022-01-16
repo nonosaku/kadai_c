@@ -20,7 +20,7 @@ const clock=()=>{// 現在の日時・時刻の情報を取得
   let today = `${year}.${month}.${date} ${day}`;
   let time = `${hour}:${min}:${sec}`;
   
-  document.querySelector("div.date").innerText = today;
-  document.querySelector("div.time").innerText = time;
+  document.querySelector("p.date").innerText = today;
+  document.querySelector("p.time").innerText = time;
 };
 setInterval(clock, 1000);
