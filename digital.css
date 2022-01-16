@@ -6,4 +6,11 @@ div.clock{
   font-family:fantasy;
   color:white;
   text-align: center;
+  text-shadow: 0 0 20px #0aafe6;
+}
+div.date{
+ font-size: 25px;
+}
+div.time{
+  font-size: 100px;
 }
