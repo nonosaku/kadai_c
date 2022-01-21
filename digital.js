@@ -31,8 +31,8 @@ const clock = () => {
   let time = `${hour}:${min}:${sec}`;
 
   // 文字列を出力
-  document.querySelector("div.date").innerText = today;
-  document.querySelector("div.time").innerText = time;
+  //document.querySelector("div.date").innerText = today;
+  //document.querySelector("div.time").innerText = time;
 };
 
 // 1秒ごとにclock関数を呼び出す
