@@ -34,7 +34,6 @@ const clock = () => {
   document.querySelector("div.time").innerText = time;
   
 };
-
 // 1秒ごとにclock関数を呼び出す
 setInterval(clock, 1000);
   
