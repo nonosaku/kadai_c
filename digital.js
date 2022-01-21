@@ -14,8 +14,7 @@ const clock = () => {
   //分を取得
   let min = time.getMinutes();
  
-
-  // 1桁の場合は0を足して2桁に
+  //1桁の時間　0(時間)の表示
   month = month < 10 ? "0" + month : month;
   date = date < 10 ? "0" + date : date;
   hour = hour < 10 ? "0" + hour : hour;
