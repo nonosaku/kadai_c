@@ -1,4 +1,4 @@
-const clock = () => {
+const clock =()=>{
   //日時・時刻
   const time = new Date();
   //月を取得
