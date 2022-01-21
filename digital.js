@@ -1,7 +1,6 @@
 const clock = () => {
   //日時・時刻
   const time = new Date();
-  
   //月を取得
   let month = time.getMonth() + 1;
   //日を取得
