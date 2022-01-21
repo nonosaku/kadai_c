@@ -22,7 +22,7 @@ const clock = () => {
  
   // 日付・時刻の文字列を作成
   let today = `${month}.${date} ${day}`;
-  let time = `${hour}:${min}`;
+  let time = `${hour} ${min}`;
 
   // 文字列を出力
   document.querySelector("div.date").innerText = today;
