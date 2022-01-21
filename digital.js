@@ -27,12 +27,12 @@ const clock = () => {
   //sec = sec < 10 ? "0" + sec : sec;
 
   // 日付・時刻の文字列を作成
-  //let today = `${year}.${month}.${date} ${day}`;
-  //let time = `${hour}:${min}:${sec}`;
+  let today = `${year}.${month}.${date} ${day}`;
+  let time = `${hour}:${min}:${sec}`;
 
   // 文字列を出力
-  //document.querySelector("div.date").innerText = today;
-  //document.querySelector("div.time").innerText = time;
+  document.querySelector("div.date").innerText = today;
+  document.querySelector("div.time").innerText = time;
   
 };
 
