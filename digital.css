@@ -1,40 +1,34 @@
-/* 全体を囲うコンテナー */
-.container {
+div.container {
   width: 100%;
-  height: 100vh;
-  background-color: #15151e;
+  height: 100%;
+  background-color: black;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  /*align-items: center;*/
+  /*justify-content: center;*/
   text-align: center;
 }
 
 /* 時計の共通スタイル */
-.clock {
+div.clock {
   font-family: fantasy;
-  color: #daf6ff;
-  text-shadow: 0 0 20px #0aafe6;
+  color: white;
+  text-shadow: 0 0 30px white;
   line-height: 1.2;
   text-align: center;
 }
 
-/* 日付のスタイル */
-.clock-date {
+div.date {
   font-size: 25px;
 }
 
-/* 時間のスタイル */
-.clock-time {
+div.time {
   font-size: 100px;
 }
 
-/* 文字サイズ調整 */
-@media screen and (max-width: 500px) {
-  .clock-date {
+div.date {
     font-size: 5vw;
   }
-  .clock-time {
+div.time {
     font-size: 20vw;
   }
-}
 
