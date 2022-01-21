@@ -1,7 +1,6 @@
 const clock = () => {
   //日時・時刻
   const time = new Date();
-
   //年を取得
   let year = time.getFullYear();
   //月を取得
