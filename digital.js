@@ -20,11 +20,11 @@ const clock = () => {
   let sec = time.getSeconds();
 
   // 1桁の場合は0を足して2桁に
-  month = month < 10 ? "0" + month : month;
-  date = date < 10 ? "0" + date : date;
-  hour = hour < 10 ? "0" + hour : hour;
-  min = min < 10 ? "0" + min : min;
-  sec = sec < 10 ? "0" + sec : sec;
+  //month = month < 10 ? "0" + month : month;
+  //date = date < 10 ? "0" + date : date;
+  //hour = hour < 10 ? "0" + hour : hour;
+  //min = min < 10 ? "0" + min : min;
+  //sec = sec < 10 ? "0" + sec : sec;
 
   // 日付・時刻の文字列を作成
   //let today = `${year}.${month}.${date} ${day}`;
