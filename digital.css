@@ -3,8 +3,8 @@ div.container {
   height: 100%;
   background-color: black;
   display: flex;
-  /*align-items: center;*/
-  /*justify-content: center;*/
+  align-items: center;
+  justify-content: center;
   text-align: center;
 }
 
@@ -17,18 +17,18 @@ div.clock {
   text-align: center;
 }
 
-div.date {
+p.date{
   font-size: 25px;
 }
 
-div.time {
+p.time {
   font-size: 100px;
 }
 
-div.date {
+p.date {
     font-size: 5vw;
   }
-div.time {
+p.time {
     font-size: 20vw;
   }
 
