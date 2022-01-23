@@ -14,7 +14,7 @@
   //分を取得
   var minute = time.getMinutes();
   //秒を取得
-  var second = date.getSeconds();
+  var second = time.getSeconds();
 
  hour = update(hour);
  minute = update(minute);
