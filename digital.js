@@ -15,7 +15,7 @@
   var minute = time.getMinutes();
   //秒を取得
   var second = time.getSeconds();
-
+  
  hour = update(hour);
  minute = update(minute);
  second = update(second);
@@ -33,4 +33,5 @@ setInterval(Time, 1000);
  return t;
  }
  }
+
  Time();
