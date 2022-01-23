@@ -22,6 +22,6 @@
  min = update(min);
  sec = update(sec);
   
- document.getElementById("digital-clock").innerText = hour + " : " + min + " : " + sec;
+ document.getElementById("clock").innerText = hour + " : " + min + " : " + sec;
 // 1秒ごとにclock関数を呼び出す
 setInterval(clock, 1000);
