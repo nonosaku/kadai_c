@@ -21,8 +21,8 @@ const clock =()=>{
   min = min < 10 ? "0" + min : min;
  
   // 日付・時刻の文字列を作成
-  // let today = `${month}.${date} ${day}`;
-  // let time = `${hour} ${min}`;
+  let today = `${month}.${date} ${day}`;
+  let time = `${hour} ${min}`;
 
   // 文字列を出力
   document.querySelector("div.date").innerText = today;
