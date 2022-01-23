@@ -16,7 +16,6 @@
   //秒を取得
   var second = date.getSeconds();
 
-  }
  hour = update(hour);
  minute = update(minute);
  second = update(second);
