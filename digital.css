@@ -1,6 +1,7 @@
 body{
   background:navy;
 }
+
 /* 時計の共通スタイル */
 #clock{
   font-family: fantasy;
@@ -9,4 +10,3 @@ body{
   line-height: 1.2;
   text-align: center;
 }
-
