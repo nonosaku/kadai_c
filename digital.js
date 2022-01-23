@@ -23,8 +23,7 @@
 document.getElementById("clock").innerText = hour + " : " + minute + " : " + second;
 // 1秒ごとにclock関数を呼び出す
 setInterval(Time, 1000);
- }
-  
+ }  
  function update(t) {
  if (t < 10) {
  return "0" + t;
