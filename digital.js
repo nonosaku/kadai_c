@@ -17,7 +17,6 @@
   var sec = date.getSeconds();
    
   }
-  
  h = update(h);
  min = update(min);
  sec = update(sec);
