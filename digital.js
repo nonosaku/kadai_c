@@ -10,7 +10,7 @@
   const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   var day = weekday[dayNum];
   //時を取得
-  var hour = time.getHours();
+  var h = time.getHours();
   //分を取得
   var min = time.getMinutes();
   //秒を取得
@@ -18,7 +18,7 @@
    
   }
   
- hour = update(hour);
+ h = update(h);
  min = update(min);
  sec = update(sec);
 
