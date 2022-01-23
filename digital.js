@@ -21,6 +21,15 @@
  hour = update(hour);
  min = update(min);
  sec = update(sec);
+
+ function update(t) {
+ if (t < 10) {
+ return "0" + t;
+ }
+ else {
+ return t;
+ }
+ }
   
  document.getElementById("clock").innerText = hour + " : " + min + " : " + sec;
 // 1秒ごとにclock関数を呼び出す
