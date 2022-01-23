@@ -10,16 +10,21 @@
   const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
   var day = weekday[dayNum];
   //時を取得
-  var hou = time.getHours();
+  var hour = time.getHours();
   //分を取得
-  var min = time.getMinutes();
+  var minute = time.getMinutes();
   //秒を取得
-  var sec = date.getSeconds();
-   
+  var second = date.getSeconds();
+
   }
- hou = update(hou);
- min = update(min);
- sec = update(sec);
+ hour = update(hour);
+ minute = update(minute);
+ second = update(second);
+
+document.getElementById("clock").innerText = hour + " : " + minute + " : " + second;
+// 1秒ごとにclock関数を呼び出す
+setInterval(clock, 1000);
+}
 
  function update(t) {
  if (t < 10) {
@@ -29,7 +34,4 @@
  return t;
  }
  }
-  
- document.getElementById("clock").innerText = hou + " : " + min + " : " + sec;
-// 1秒ごとにclock関数を呼び出す
-setInterval(clock, 1000);
+ Time();
