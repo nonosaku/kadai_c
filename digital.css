@@ -2,9 +2,9 @@ body{
   background:darkgray;
 }
 /* 時計の共通スタイル */
-p.clock{
+/*p.clock{
   font-family: fantasy;
   color: white;
   text-shadow: 0 0 30px white;
   text-align: center;
-}
+}*/
