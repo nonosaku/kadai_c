@@ -7,8 +7,8 @@ function DigitalClock(){
   var date = time.getDate();
   //曜日を取得
   var dayNum = time.getDay();
-  const weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
-  var day = weekday[dayNum];
+  var weekday = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"][dayNum];
+  //var day = weekday[dayNum];
   //時を取得
   var hour = time.getHours();
   //分を取得
@@ -20,7 +20,7 @@ function DigitalClock(){
  minute = update(minute);
  var doc= month +" "+date+" "+" "+day;
  var doc2=hour+":"+"minute+":"+second;
-//document.getElementById("clock").innerHTML=doc;
+document.getElementById("clock").innerHTML=doc;
 document.getElementById("clock").innerHTML=doc2;
 }
 setInterval('DigitalClock()',1000);
