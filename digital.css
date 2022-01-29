@@ -1,8 +1,8 @@
 body{
-  background:black;
+  background:darkgray;
 }
 /* 時計の共通スタイル */
-.clock{
+p.clock{
   font-family: fantasy;
   color: white;
   text-shadow: 0 0 30px white;
