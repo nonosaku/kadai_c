@@ -21,7 +21,7 @@
  second = update(second);
   
  let today = `${year}.${month}.${date} ${day}`;
- let time = `${hour}:${min}:${sec}`;
+ let time = `${hour}:${minute}:${second}`;
   
  document.querySelector("date").innerText = today;
  document.querySelector("time").innerText = time;
