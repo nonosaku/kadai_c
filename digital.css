@@ -1,5 +1,5 @@
 body{
-  background:gray;
+  background:black;
 }
 
 /* 時計の共通スタイル */
@@ -7,6 +7,5 @@ body{
   font-family: fantasy;
   color: white;
   text-shadow: 0 0 30px white;
-  line-height: 1.2;
   text-align: center;
 }
