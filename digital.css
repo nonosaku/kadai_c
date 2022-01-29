@@ -1,6 +1,7 @@
 body{
   background:silver;
 }
+
 #digitalclock{
   font-family:fantasy;
   color:white;
@@ -8,6 +9,7 @@ body{
   text-align: center;
   font-size:500%;
 }
+
 #digitalclock2{
   font-family:fantasy;
   color:lavender;
