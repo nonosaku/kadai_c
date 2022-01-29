@@ -1,8 +1,8 @@
- function Time(){
-  //日時・時刻
+function DigitalClock(){  
+//日時・時刻
   var time = new Date();
   //月を取得
-  var month = time.getMonth() + 1;
+  var month = time.getMonth()+1;
   //日を取得
   var date = time.getDate();
   //曜日を取得
@@ -16,28 +16,11 @@
   //秒を取得
   var second = time.getSeconds();
   
- hour = update(hour);
+  //文字列
  minute = update(minute);
- second = update(second);
-  
- let today = `${year}.${month}.${date} ${day}`;
- let watch = `${hour}:${minute}:${second}`;
-  
- document.querySelector("date").innerText = today;
- document.querySelector("time").innerText = watch;
-
-//document.getElementById("clock").innerText = month + "  " + date + "  " + dayNum;
-//document.getElementById("clock").innerText = hour + " : " + minute + " : " + second;
-// 1秒ごとにclock関数を呼び出す
-setTimeout(Time, 1000);
- }
-
- function update(t) {
- if (t < 10) {
- return "0" + t;
- }
- else {
- return t;
- }
- }
- Time();
+ var doc= month +" "+date+" "+" "+day;
+ var doc2=hour+":"+"minute+":"+second;
+document.getElementById("clock").innerHTML=doc;
+document.getElementById("clock").innerHTML=doc2;
+}
+setInterval('DigitalClock()',1000);
