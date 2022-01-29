@@ -21,10 +21,10 @@
  second = update(second);
   
  let today = `${year}.${month}.${date} ${day}`;
- let time = `${hour}:${minute}:${second}`;
+ let watch = `${hour}:${minute}:${second}`;
   
  document.querySelector("date").innerText = today;
- document.querySelector("time").innerText = time;
+ document.querySelector("time").innerText = watch;
 
 //document.getElementById("clock").innerText = month + "  " + date + "  " + dayNum;
 //document.getElementById("clock").innerText = hour + " : " + minute + " : " + second;
