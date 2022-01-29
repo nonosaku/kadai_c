@@ -19,9 +19,15 @@
  hour = update(hour);
  minute = update(minute);
  second = update(second);
+  
+ let today = `${year}.${month}.${date} ${day}`;
+ let time = `${hour}:${min}:${sec}`;
+  
+ document.querySelector("date").innerText = today;
+ document.querySelector("time").innerText = time;
 
-document.getElementById("clock").innerText = month + "  " + date + "  " + dayNum;
-document.getElementById("clock").innerText = hour + " : " + minute + " : " + second;
+//document.getElementById("clock").innerText = month + "  " + date + "  " + dayNum;
+//document.getElementById("clock").innerText = hour + " : " + minute + " : " + second;
 // 1秒ごとにclock関数を呼び出す
 setTimeout(Time, 1000);
  }
