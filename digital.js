@@ -18,9 +18,9 @@ function DigitalClock(){
   
   //文字列
  minute = update(minute);
- var doc= month +" "+date+" "+" "+day;
+ //var doc= month +" "+date+" "+" "+day;
  var doc2=hour+":"+"minute+":"+second;
-document.getElementById("clock").innerHTML=doc;
+//document.getElementById("clock").innerHTML=doc;
 document.getElementById("clock").innerHTML=doc2;
 }
 setInterval('DigitalClock()',1000);
