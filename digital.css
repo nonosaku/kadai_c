@@ -1,10 +1,17 @@
 body{
-  background:black;
+  background:silver;
 }
 #digitalclock{
   font-family:fantasy;
-  color:red;
-  text-shadow: 0 0 20px #0aafe6;
-  line-height: 1.2;
+  color:white;
+  text-shadow: 0 0 20px ,0 0 20px;
   text-align: center;
+  font-size:500%;
+}
+#digitalclock2{
+  font-family:fantasy;
+  color:lavender;
+  text-shadow: 0 0 20px ,0 0 20px;
+  text-align: center;
+  font-size:400%;
 }
