@@ -40,5 +40,4 @@ setTimeout(Time, 1000);
  return t;
  }
  }
-
  Time();
